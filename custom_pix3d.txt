@@ -1,0 +1,22 @@
+basedir = ./logs
+expname = pix3d_test
+
+dataset_type = blender
+datadir = ./your_data
+half_res = True
+white_bkgd = True
+N_rand = 512
+lrate = 5e-4
+lrate_decay = 250
+chunk = 1024
+netchunk = 1024
+i_print = 100
+i_img = 1000
+i_weights = 1000
+i_testset = 1000
+i_video = 1000
+N_samples = 32
+N_importance = 32
+raw_noise_std = 0.0
+render_factor = 4
+factor = 2
